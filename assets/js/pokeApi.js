@@ -30,16 +30,17 @@ var digiArray = []
 
 /* show divs by changing height */
 const showDivs = ()=>{
-    $('#mostrar_pokemon').attr('height', 'auto');
-    $('#chartContainer').attr('height', '600px');
-    $('#chartContainer2').attr('height', '400px');
+    $('#digiInfo').height('45rem');
+    $('#digiChart1').height('500px');
+    $('#digiChart2').height('25rem');
+    $('#infoShow').height('500px');
 }
 
 /* Funcion para la estructura de nuestra card y definimos la data a entregar */
 const loadDigimon = (info) => {
     document.querySelector("#mostrar_pokemon").innerHTML = `
-     <div class="card bg-warning-subtle">
-         <img src="${info.img}" class="card-img-top">
+     <div class="card bg-warning-subtle text-center">
+         <img src="${info.img}" class="card-img-top" style='height: 500px'>
          <div class="card-body">
              <h5 class="card-title text-center fs-4 text-capitalize">${info.name}</h5>
              <hr>
@@ -98,6 +99,7 @@ function fetchDigimons() {
                 let digimon = selectorDigi(digiArray)               
 
                 /* showDivs() */
+                showDivs()
 
                 /* llamamos la estructura y entregamos data desde F:obtenerTarget */
                 loadDigimon(obtenerTarget(lista, digimon))

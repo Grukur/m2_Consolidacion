@@ -47,34 +47,32 @@
     
     <main class="container">
         <section class="row" style="width: 100vw;">
+            <!-- Show data -->
             <div class="col-12 col-lg-4" id="digiInfo">
-                <div class="m-5 d-inline-block" id="mostrar_pokemon">
+                <div class="m-5" id="mostrar_pokemon">
                 </div>
             </div>
             <!-- Show -->
             <div class="col-12 d-lg-none" id="digiChart2">
-                <div class="m-0  " id="chartContainer2"></div>
+                <div class="m-0" id="chartContainer2"></div>
             </div>
     
-            <div class="col-12 col-lg-4 d-inline">
+            <div class="col-12 col-lg-4" id="infoShow">
                 <!-- Search by name -->
-                <section id="datos_pokemon" class="">
+                <div id="datos_pokemon">
                     <h1 class="text-center mt-5">Consulta por tu Digimon</h1>
                     <form id="form_pokemon" class="text-center">
                         <label for="nombre" class="form-label fs-5">Nombre o ID:</label>
                         <input type="text" name="nombre" id="nombre" class="form-control mb-3 text-center w-50 m-auto">
                         <button id="btnSearch" class="btn btn-primary my-5" type="submit">Buscar</button>
                     </form>
-                </section>
-                <!-- Search by list -->
-                <section id="listaPokemon" class="">
                     <div class="mb-3 text-center">
                         <label for="pokemonList" class="form-label fs-5">Lista de Digimons</label>
                         <select id="pokemonList" class="form-select text-center w-50 m-auto">
                             <option></option>
                         </select>
                     </div>
-                </section>
+                </div>               
             </div>
             
             <!-- Show -->
