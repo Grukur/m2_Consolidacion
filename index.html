@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- Jquery -->
+    <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <!-- Canvas -->
+    <script defer src="https://canvasjs.com/assets/script/canvasjs.min.js"></script>
+    <!-- Script of own -->
+    <script defer src="./assets/js/pokeApi.js"></script>
+    <!-- Style -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- Icon -->
+    <link rel="icon" href="./assets/img/digiIcon.png">
+    <title>Digimon Search</title>
+</head>
+
+<!-- NavBar -->
+<section>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <img src="./assets/img/bienvenido1.jfif" alt="" height="5%" width="10%">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link fs-3" href="./digiApi.html">Buscador</a>
+                    <a class="nav-link fs-3" href="./galeria.html">Galeria</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</section>
+
+<body class="backgroundBody m-auto">
+    <!-- Upper Block -->
+    <section class="row m-auto">
+        <div class='text-center mt-3 col-12 col-md-12 col-lg-9 col-xl-6'>
+            <img class="w-75" src="./assets/img/heroImg.jfif" alt="">
+        </div>
+        <div class="text-center mt-3 col-12 col-md-6 col-lg-5 col-xl-3 m-auto">
+            <button id="history" class="btn btn-primary w-75" type="button">Historia</button>
+            <div id="historyP" style="display: none;">
+                <p>Historia<br>Digimon Adventure es la primera serie televisiva de la franquicia Digimon  , que cuenta una historia centrada en 7 niños de Andalucia, que son trasportados al Digimundo después de encontrar sus Digivice y ser arrastrados por una ola, llegando así a la Isla File (su nombre significa Isla Archivo). Allí encontrarán a sus compañeros digimons. Más tarde se les uniría la octava niña elegida, conforme avance la serie. <br><br>
+                Argumento<br> El 1 Agosto de 1999, Siete niños de Japón (Tai Kamiya , Matt ishida , Tk Takaishi , Sora Takenouchi , Izzy Izumi , Mimi Tachikawa  y Joe Kido ) de repente son enviados a una extraña dimensión llamada Digimundo mientras ellos estaban en el Campamento de Verano. Durante su aventura, Los niños descubren que ellos están en una isla donde criaturas digitales llamadas Digimon habitan. Haciendose amigos de otros 7 Digimon , Los niños aprenden que ellos poseen la habilidad para digievolucionar, haciendo que sus Digimon se vuelvan màs grandes y fuertes y asì son capaces de combatir a otros Digimon enemigos. Mientras avanza la trama el octavo niño elegido (Kari Kamiya ) se les unira al grupo. Comenzando su viaje,los niños comienzan a buscar una manera de como regresar a su mundo. La trama se puede dividir en las siguientes sagas:
+                    </p>
+                </ul>
+            </p>
+            <button id="historyClose" class="btn btn-primary" type="button">Cerrar</button>
+        </div>
+    </div>
+    <div class="text-center mt-3 col-12 col-md-6 col-lg-5 col-xl-3 m-auto">
+        <button id="extra" class="btn btn-primary w-75" type="button">Extra</button>
+        <div id="extraP" style="display: none;">
+            <p>Proyecto creado con fin educativo a modo de ser presentado para evaluación de conocimientos en:<br> <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>BOOTSTRAP</li>
+            <li>JavaScript</li>
+            <li>Consumo de API a travez de: <ul>
+                <li>JQuery</li>
+                <li>JavaScript</li></ul></li>
+            </ul></p>
+            <button id="extraClose" class="btn btn-primary" type="button">Cerrar</button>
+        </div>
+    </div>
+</section>
+
+
+</body>
+
+</html>

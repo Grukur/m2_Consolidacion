@@ -1,0 +1,51 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.backgroundBody {
+  height: 100vh;
+  background: rgb(255, 172, 0);
+  background: linear-gradient(54deg, rgba(255, 172, 0, 1) 5%, rgba(255, 225, 0, 1) 48%, rgba(255, 136, 0, 1) 95%);
+}
+.container {
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+}
+.row{
+  margin-left: 0;
+  margin-right: 0;
+}
+
+#mostrar_pokemon{
+  height: 0; /* auto */
+}
+#digiChart1{
+  height: 0; /* auto */
+  
+}
+#digiChart2{
+  height: 0; /* auto */
+  
+}
+#chartContainer{
+  height: 0; /* 400px */
+}
+#chartContainer2{
+  height: 0; /* 400px */
+}
+
+
+/* Carrusel */
+#myCarousel {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.carousel-control.left {
+  margin-left: -25px;
+}
+.carousel-control.right {
+  margin-right: -25px;
+}
